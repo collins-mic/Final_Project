@@ -22,13 +22,17 @@ firebase-debug.*.log
 
 ==========================
 
-NODE.JS (If you used npm)
+NODE.JS 
 
 ==========================
 
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Environment files
+.env
+.env.*
 
 ==========================
 
