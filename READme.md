@@ -19,8 +19,8 @@ Built as a final project aligned with **UN SDG 3: Good Health and Well-being**.
 |----------------|------|
 | 🌐 Live Web App | [Click to View Live Demo](https://collins-mic.github.io/Final_Project/web_app/) |
 | 🌐 Live Web App | [Click to View Live Demo](https://mindwell-app-18340.web.app) |
-| 📑 Pitch Deck   | [View Presentation Slides](INSERT_PITCH_DECK_LINK_HERE) |
-| 📹 Mobile_app Demo   | [Re-direct to Notion](INSERT_VIDEO_DEMO_LINK_HERE) |
+| 📑 Pitch Deck   | [View Presentation Slides](https://gamma.app/docs/MindWell-khp1riwl5ogjg58) |
+| 📹 Mobile_app Demo   | [Re-direct to Notion](https://www.notion.so/Mindwell-2b1653d1afc9803d999ded18a5c99c86?source=copy_link) |
 
 ---
 
@@ -114,12 +114,10 @@ This repository is a **Monorepo** containing both Web and Mobile apps connected 
 Counselor Mode: Export charts for therapists and counselors
 
 ---
-### Contributor
-Collins.
----
+
 ### ** To Clone the Repository**
 ```bash
 git clone https://github.com/collins-mic/Final_Project.git
 cd Final_Project
 
----
+
