@@ -108,11 +108,18 @@ This repository is a **Monorepo** containing both Web and Mobile apps connected 
 - Node.js   
 
 ---
+### Future RoadMap
+- AI Insights: Smart journaling prompts based on mood patterns
+- Gamification: Streak tracking + rewards for consistency
+Counselor Mode: Export charts for therapists and counselors
 
-### **1. Clone the Repository**
+---
+### Contributor
+Collins.
+---
+### ** To Clone the Repository**
 ```bash
 git clone https://github.com/collins-mic/Final_Project.git
 cd Final_Project
 
 ---
-### Future Roadmap
