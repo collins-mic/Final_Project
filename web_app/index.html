@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindWell - Check-in</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FONT IMPORTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lora:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="auth-container">
+        <div class="auth-card animated-fade-in">
+            <div class="logo-container">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" fill="var(--primary-color)"/><path d="M12 17.5C15.03 17.5 17.5 15.03 17.5 12C17.5 8.97 15.03 6.5 12 6.5C8.97 6.5 6.5 8.97 6.5 12C6.5 15.03 8.97 17.5 12 17.5ZM12 8.5C13.93 8.5 15.5 10.07 15.5 12C15.5 13.93 13.93 15.5 12 15.5C10.07 15.5 8.5 13.93 8.5 12C8.5 10.07 10.07 8.5 12 8.5Z" fill="var(--primary-color)"/></svg>
+                <h2>MindWell</h2>
+            </div>
+            <p class="auth-subtitle">Welcome! Sign in to continue.</p>
+            
+            <form id="auth-form" class="auth-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <div id="auth-error" class="message-box error-box hidden"></div>
+
+                <div class="auth-actions">
+                    <button type="button" id="login-button" class="btn btn-primary">Log In</button>
+                    <button type="button" id="signup-button" class="btn btn-secondary">Sign Up</button>
+                </div>
+            </form>
+            
+            <div class="divider">
+                <span>or</span>
+            </div>
+            
+            <button type="button" id="google-signin-button" class="btn btn-google">
+                <svg width="20" height="20" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path fill="#4285F4" d="M17.64 9.20455c0-.63864-.05727-1.25182-.16818-1.84091H9.18182v3.48068h4.79182c-.20455 1.12614-.79773 2.07818-1.63636 2.7125v2.25818h2.90773c1.70182-1.56682 2.67136-3.87182 2.67136-6.61045z"></path><path fill="#34A853" d="M9.18182 18c2.43 0 4.46727-.80568 5.95727-2.18182l-2.90773-2.25818c-.80568.54273-1.83318.86591-2.90773.86591-2.24773 0-4.15682-1.51932-4.83864-3.55364H1.45182v2.33068C2.925 15.99273 5.8 18 9.18182 18z"></path><path fill="#FBBC05" d="M4.34318 10.8c-.14545-.43068-.22727-.88523-.22727-1.35s.08182-.91932.22727-1.35V5.76932H1.45182C.53591 7.64205 0 9.75 0 12s.53591 4.35795 1.45182 6.23068l2.89136-2.33068z"></path><path fill="#EA4335" d="M9.18182 3.6c1.32273 0 2.50727.45682 3.44 1.34818l2.58318-2.58318C13.6459 1.13977 11.6086 0 9.18182 0 5.8 0 2.925 2.00727 1.45182 4.73068l2.89136 2.33068C5.025 5.11932 6.93409 3.6 9.18182 3.6z"></path></svg>
+                <span>Sign in with Google</span>
+            </button>
+        </div>
+    </div>
+
+     <footer class="footer-container">
+        <div class="container footer-content">
+            <div class="footer-links">
+                <a href="feedback.html">Submit Feedback</a>
+                <a href="mailto:collinsirunguh@gmail.com?subject=MindWell App Feedback">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.558Z"/>
+                    </svg>
+                    Contact Developer
+                </a>
+            </div>
+            <p class="footer-copyright">
+                © 2025 MindWell. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+    <script src="auth.js" defer></script>
+    <script src="resources.js" defer></script>
+
+</body>
+</html>

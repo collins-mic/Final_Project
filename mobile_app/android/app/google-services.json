@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "332757505850",
+    "firebase_url": "https://mindwell-app-18340-default-rtdb.firebaseio.com",
+    "project_id": "mindwell-app-18340",
+    "storage_bucket": "mindwell-app-18340.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332757505850:android:aee7a988d80f50e9be2203",
+        "android_client_info": {
+          "package_name": "com.example.mindwell_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332757505850-6gmlfejufr5tdq2dvaal66ck2k0htar5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd2ncyZpmo0uzbUFgCV6d3Xhimx0O3k8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332757505850-6gmlfejufr5tdq2dvaal66ck2k0htar5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
