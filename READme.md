@@ -111,7 +111,8 @@ This repository is a **Monorepo** containing both Web and Mobile apps connected 
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/MindWell-Hackathon-2025.git
-cd MindWell-Hackathon-2025
+git clone https://github.com/collins-mic/Final_Project.git
+cd Final_Project
 
-FUTURE ROADMAP
+---
+### Future Roadmap
